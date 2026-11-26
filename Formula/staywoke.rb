@@ -1,19 +1,19 @@
 class Staywoke < Formula
   desc "Keep your Mac awake only while AI agents are working"
   homepage "https://github.com/rjmorales13/staywoke"
-  version "1.0.6"
+  version "1.0.7"
   license "MIT"
 
   depends_on macos: :sonoma
 
   on_arm do
-    url "https://github.com/rjmorales13/staywoke/releases/download/v1.0.6/staywoke-v1.0.6-arm64.tar.gz"
-    sha256 "add928cc10dde793529d41a63dbac77060f3ca8d5abfc86f4b144ee0954e2943"
+    url "https://github.com/rjmorales13/staywoke/releases/download/v1.0.7/staywoke-v1.0.7-arm64.tar.gz"
+    sha256 "f9191b5c29b7c9204cda3d6aeaf25971b48b5b87bc2d235c243c6cb2f20dfbac"
   end
 
   on_intel do
-    url "https://github.com/rjmorales13/staywoke/releases/download/v1.0.6/staywoke-v1.0.6-x86_64.tar.gz"
-    sha256 "c49882a9c02a2f4e4c8bd069575db3c55ced1e3c8507954d4cc17a7312d000d9"
+    url "https://github.com/rjmorales13/staywoke/releases/download/v1.0.7/staywoke-v1.0.7-x86_64.tar.gz"
+    sha256 "614cfc6556ef6583054d8335ec7d9c60b53eb9285b02e24f25a88459e5f45081"
   end
 
   def install
